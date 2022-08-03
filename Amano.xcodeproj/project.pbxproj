@@ -1,0 +1,1719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C82F5A8E32436889D4345B /* Pods_Amano_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63634313DA9F0D3BA8891D3 /* Pods_Amano_Staging.framework */; };
+		6E0E2F90281CEF9F008BAF32 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E0E2F8F281CEF9F008BAF32 /* Info.plist */; };
+		6EBC7965282C1B3300FB7C55 /* InstallSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC7963282C1B3200FB7C55 /* InstallSelectionViewController.swift */; };
+		6EBC7966282C1B3300FB7C55 /* InstallSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC7964282C1B3300FB7C55 /* InstallSelectionViewController.xib */; };
+		6EBC7967282C23D500FB7C55 /* InstallSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC7963282C1B3200FB7C55 /* InstallSelectionViewController.swift */; };
+		6EBC7968282C23D600FB7C55 /* InstallSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC7963282C1B3200FB7C55 /* InstallSelectionViewController.swift */; };
+		6EBC7969282C23F400FB7C55 /* InstallSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC7964282C1B3300FB7C55 /* InstallSelectionViewController.xib */; };
+		6EBC796A282C23F400FB7C55 /* InstallSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC7964282C1B3300FB7C55 /* InstallSelectionViewController.xib */; };
+		6EBC796D282C2F8200FB7C55 /* InstallHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC796B282C2F8200FB7C55 /* InstallHelpViewController.swift */; };
+		6EBC796E282C2F8200FB7C55 /* InstallHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC796B282C2F8200FB7C55 /* InstallHelpViewController.swift */; };
+		6EBC796F282C2F8200FB7C55 /* InstallHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC796B282C2F8200FB7C55 /* InstallHelpViewController.swift */; };
+		6EBC7970282C2F8200FB7C55 /* InstallHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC796C282C2F8200FB7C55 /* InstallHelpViewController.xib */; };
+		6EBC7971282C2F8200FB7C55 /* InstallHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC796C282C2F8200FB7C55 /* InstallHelpViewController.xib */; };
+		6EBC7972282C2F8200FB7C55 /* InstallHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC796C282C2F8200FB7C55 /* InstallHelpViewController.xib */; };
+		B0297A0A72B87B1F18FE9344 /* Pods_Amano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CA4E2BA6E26D4FF9FF43E6 /* Pods_Amano.framework */; };
+		DD10505F27E95B950063B30C /* DeviceLocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10505E27E95B950063B30C /* DeviceLocationInfoViewController.swift */; };
+		DD10506027E95B950063B30C /* DeviceLocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10505E27E95B950063B30C /* DeviceLocationInfoViewController.swift */; };
+		DD10506127E95B950063B30C /* DeviceLocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10505E27E95B950063B30C /* DeviceLocationInfoViewController.swift */; };
+		DD38E1E127B31B9800B5FA05 /* SmallTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38E1E027B31B9800B5FA05 /* SmallTableView.swift */; };
+		DD38E1E227B31B9800B5FA05 /* SmallTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38E1E027B31B9800B5FA05 /* SmallTableView.swift */; };
+		DD38E1E327B31B9800B5FA05 /* SmallTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38E1E027B31B9800B5FA05 /* SmallTableView.swift */; };
+		DD48D19327FBD2FF008A253D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48D19227FBD2FF008A253D /* SessionManager.swift */; };
+		DD48D19427FBD2FF008A253D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48D19227FBD2FF008A253D /* SessionManager.swift */; };
+		DD48D19527FBD2FF008A253D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48D19227FBD2FF008A253D /* SessionManager.swift */; };
+		DD5D920327B8AC7000A101D7 /* Constants-Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D920227B8AC7000A101D7 /* Constants-Global.swift */; };
+		DD5D920427B8AC7000A101D7 /* Constants-Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D920227B8AC7000A101D7 /* Constants-Global.swift */; };
+		DD5D920527B8AC7000A101D7 /* Constants-Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5D920227B8AC7000A101D7 /* Constants-Global.swift */; };
+		DD5F183C27BB2BB200B33718 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F183B27BB2BB200B33718 /* HomeViewModel.swift */; };
+		DD5F183D27BB2BB200B33718 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F183B27BB2BB200B33718 /* HomeViewModel.swift */; };
+		DD5F183E27BB2BB200B33718 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F183B27BB2BB200B33718 /* HomeViewModel.swift */; };
+		DD5F184527BC9AE700B33718 /* SpectrumChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F184427BC9AE700B33718 /* SpectrumChartView.swift */; };
+		DD5F184627BC9AE700B33718 /* SpectrumChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F184427BC9AE700B33718 /* SpectrumChartView.swift */; };
+		DD5F184727BC9AE700B33718 /* SpectrumChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F184427BC9AE700B33718 /* SpectrumChartView.swift */; };
+		DD645B2E27D2DCC10008C3B6 /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD645B2D27D2DCC10008C3B6 /* PopoverTableViewController.swift */; };
+		DD645B2F27D2DCC10008C3B6 /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD645B2D27D2DCC10008C3B6 /* PopoverTableViewController.swift */; };
+		DD645B3027D2DCC10008C3B6 /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD645B2D27D2DCC10008C3B6 /* PopoverTableViewController.swift */; };
+		DD7A609727AF42D400BB0047 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7A609627AF42D400BB0047 /* LoadingView.xib */; };
+		DD7A609827AF42D400BB0047 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7A609627AF42D400BB0047 /* LoadingView.xib */; };
+		DD7A609927AF42D400BB0047 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD7A609627AF42D400BB0047 /* LoadingView.xib */; };
+		DD7A60A527AF710600BB0047 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7A60A427AF710600BB0047 /* NetworkExtension.framework */; };
+		DD7A60A727AF724E00BB0047 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7A60A427AF710600BB0047 /* NetworkExtension.framework */; };
+		DD7A60A927AF725B00BB0047 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD7A60A427AF710600BB0047 /* NetworkExtension.framework */; };
+		DD90684B27ACB02E002ACAE2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD90684A27ACB02E002ACAE2 /* Colors.xcassets */; };
+		DD90684C27ACB02E002ACAE2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD90684A27ACB02E002ACAE2 /* Colors.xcassets */; };
+		DD90684D27ACB02E002ACAE2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD90684A27ACB02E002ACAE2 /* Colors.xcassets */; };
+		DD90684F27ACB03C002ACAE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD90684E27ACB03C002ACAE2 /* Images.xcassets */; };
+		DD90685027ACB03C002ACAE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD90684E27ACB03C002ACAE2 /* Images.xcassets */; };
+		DD90685127ACB03C002ACAE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD90684E27ACB03C002ACAE2 /* Images.xcassets */; };
+		DD90685527ACB18B002ACAE2 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90685427ACB18B002ACAE2 /* Authentication.storyboard */; };
+		DD90685627ACB18B002ACAE2 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90685427ACB18B002ACAE2 /* Authentication.storyboard */; };
+		DD90685727ACB18B002ACAE2 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90685427ACB18B002ACAE2 /* Authentication.storyboard */; };
+		DD90685A27ACB1B9002ACAE2 /* Provisioning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90685927ACB1B9002ACAE2 /* Provisioning.storyboard */; };
+		DD90685B27ACB1B9002ACAE2 /* Provisioning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90685927ACB1B9002ACAE2 /* Provisioning.storyboard */; };
+		DD90685C27ACB1B9002ACAE2 /* Provisioning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD90685927ACB1B9002ACAE2 /* Provisioning.storyboard */; };
+		DD90686C27ACB96A002ACAE2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90685F27ACB96A002ACAE2 /* Roboto-Medium.ttf */; };
+		DD90686D27ACB96A002ACAE2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90685F27ACB96A002ACAE2 /* Roboto-Medium.ttf */; };
+		DD90686E27ACB96A002ACAE2 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90685F27ACB96A002ACAE2 /* Roboto-Medium.ttf */; };
+		DD90686F27ACB96A002ACAE2 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686027ACB96A002ACAE2 /* Roboto-Light.ttf */; };
+		DD90687027ACB96A002ACAE2 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686027ACB96A002ACAE2 /* Roboto-Light.ttf */; };
+		DD90687127ACB96A002ACAE2 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686027ACB96A002ACAE2 /* Roboto-Light.ttf */; };
+		DD90687227ACB96A002ACAE2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686127ACB96A002ACAE2 /* Roboto-Regular.ttf */; };
+		DD90687327ACB96A002ACAE2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686127ACB96A002ACAE2 /* Roboto-Regular.ttf */; };
+		DD90687427ACB96A002ACAE2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686127ACB96A002ACAE2 /* Roboto-Regular.ttf */; };
+		DD90687527ACB96A002ACAE2 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686227ACB96A002ACAE2 /* Roboto-MediumItalic.ttf */; };
+		DD90687627ACB96A002ACAE2 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686227ACB96A002ACAE2 /* Roboto-MediumItalic.ttf */; };
+		DD90687727ACB96A002ACAE2 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686227ACB96A002ACAE2 /* Roboto-MediumItalic.ttf */; };
+		DD90687827ACB96A002ACAE2 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686327ACB96A002ACAE2 /* Roboto-ThinItalic.ttf */; };
+		DD90687927ACB96A002ACAE2 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686327ACB96A002ACAE2 /* Roboto-ThinItalic.ttf */; };
+		DD90687A27ACB96A002ACAE2 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686327ACB96A002ACAE2 /* Roboto-ThinItalic.ttf */; };
+		DD90687B27ACB96A002ACAE2 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686427ACB96A002ACAE2 /* Roboto-BoldItalic.ttf */; };
+		DD90687C27ACB96A002ACAE2 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686427ACB96A002ACAE2 /* Roboto-BoldItalic.ttf */; };
+		DD90687D27ACB96A002ACAE2 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686427ACB96A002ACAE2 /* Roboto-BoldItalic.ttf */; };
+		DD90687E27ACB96A002ACAE2 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686527ACB96A002ACAE2 /* Roboto-LightItalic.ttf */; };
+		DD90687F27ACB96A002ACAE2 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686527ACB96A002ACAE2 /* Roboto-LightItalic.ttf */; };
+		DD90688027ACB96A002ACAE2 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686527ACB96A002ACAE2 /* Roboto-LightItalic.ttf */; };
+		DD90688127ACB96A002ACAE2 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686627ACB96A002ACAE2 /* Roboto-Italic.ttf */; };
+		DD90688227ACB96A002ACAE2 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686627ACB96A002ACAE2 /* Roboto-Italic.ttf */; };
+		DD90688327ACB96A002ACAE2 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686627ACB96A002ACAE2 /* Roboto-Italic.ttf */; };
+		DD90688427ACB96A002ACAE2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD90686727ACB96A002ACAE2 /* LICENSE.txt */; };
+		DD90688527ACB96A002ACAE2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD90686727ACB96A002ACAE2 /* LICENSE.txt */; };
+		DD90688627ACB96A002ACAE2 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD90686727ACB96A002ACAE2 /* LICENSE.txt */; };
+		DD90688727ACB96A002ACAE2 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf */; };
+		DD90688827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf */; };
+		DD90688927ACB96A002ACAE2 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf */; };
+		DD90688A27ACB96A002ACAE2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686927ACB96A002ACAE2 /* Roboto-Bold.ttf */; };
+		DD90688B27ACB96A002ACAE2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686927ACB96A002ACAE2 /* Roboto-Bold.ttf */; };
+		DD90688C27ACB96A002ACAE2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686927ACB96A002ACAE2 /* Roboto-Bold.ttf */; };
+		DD90688D27ACB96A002ACAE2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686A27ACB96A002ACAE2 /* Roboto-Thin.ttf */; };
+		DD90688E27ACB96A002ACAE2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686A27ACB96A002ACAE2 /* Roboto-Thin.ttf */; };
+		DD90688F27ACB96A002ACAE2 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686A27ACB96A002ACAE2 /* Roboto-Thin.ttf */; };
+		DD90689027ACB96A002ACAE2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686B27ACB96A002ACAE2 /* Roboto-Black.ttf */; };
+		DD90689127ACB96A002ACAE2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686B27ACB96A002ACAE2 /* Roboto-Black.ttf */; };
+		DD90689227ACB96A002ACAE2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD90686B27ACB96A002ACAE2 /* Roboto-Black.ttf */; };
+		DD90689427ACBAC3002ACAE2 /* ProvisioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90689327ACBAC3002ACAE2 /* ProvisioningManager.swift */; };
+		DD90689527ACBAC3002ACAE2 /* ProvisioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90689327ACBAC3002ACAE2 /* ProvisioningManager.swift */; };
+		DD90689627ACBAC3002ACAE2 /* ProvisioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90689327ACBAC3002ACAE2 /* ProvisioningManager.swift */; };
+		DD9068A027AED7D3002ACAE2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90689F27AED7D3002ACAE2 /* Extensions.swift */; };
+		DD9068A127AED7D3002ACAE2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90689F27AED7D3002ACAE2 /* Extensions.swift */; };
+		DD9068A227AED7D3002ACAE2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD90689F27AED7D3002ACAE2 /* Extensions.swift */; };
+		DD9068A927AEDD7C002ACAE2 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9068A827AEDD7C002ACAE2 /* AuthenticationViewController.swift */; };
+		DD9068AA27AEDD7C002ACAE2 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9068A827AEDD7C002ACAE2 /* AuthenticationViewController.swift */; };
+		DD9068AB27AEDD7C002ACAE2 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9068A827AEDD7C002ACAE2 /* AuthenticationViewController.swift */; };
+		DD9068AD27AEDF1D002ACAE2 /* ProvisioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9068AC27AEDF1D002ACAE2 /* ProvisioningViewController.swift */; };
+		DD9068AE27AEDF1D002ACAE2 /* ProvisioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9068AC27AEDF1D002ACAE2 /* ProvisioningViewController.swift */; };
+		DD9068AF27AEDF1D002ACAE2 /* ProvisioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9068AC27AEDF1D002ACAE2 /* ProvisioningViewController.swift */; };
+		DD919EDC27CAD8B300172D62 /* TopBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD919EDB27CAD8B300172D62 /* TopBanner.swift */; };
+		DD919EDD27CAD8B300172D62 /* TopBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD919EDB27CAD8B300172D62 /* TopBanner.swift */; };
+		DD919EDE27CAD8B300172D62 /* TopBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD919EDB27CAD8B300172D62 /* TopBanner.swift */; };
+		DD919EE027CAD8C000172D62 /* TopBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD919EDF27CAD8C000172D62 /* TopBanner.xib */; };
+		DD919EE127CAD8C000172D62 /* TopBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD919EDF27CAD8C000172D62 /* TopBanner.xib */; };
+		DD919EE227CAD8C000172D62 /* TopBanner.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD919EDF27CAD8C000172D62 /* TopBanner.xib */; };
+		DD97F2B327AEF033003370E0 /* SignUpInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2B227AEF033003370E0 /* SignUpInfoViewController.swift */; };
+		DD97F2B427AEF033003370E0 /* SignUpInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2B227AEF033003370E0 /* SignUpInfoViewController.swift */; };
+		DD97F2B527AEF033003370E0 /* SignUpInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2B227AEF033003370E0 /* SignUpInfoViewController.swift */; };
+		DD97F2B727AEF1D6003370E0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD97F2B627AEF1D6003370E0 /* Home.storyboard */; };
+		DD97F2B827AEF1D6003370E0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD97F2B627AEF1D6003370E0 /* Home.storyboard */; };
+		DD97F2B927AEF1D6003370E0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD97F2B627AEF1D6003370E0 /* Home.storyboard */; };
+		DD97F2BC27AEF201003370E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2BB27AEF201003370E0 /* HomeViewController.swift */; };
+		DD97F2BD27AEF201003370E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2BB27AEF201003370E0 /* HomeViewController.swift */; };
+		DD97F2BE27AEF201003370E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2BB27AEF201003370E0 /* HomeViewController.swift */; };
+		DD97F2CB27AF3C2D003370E0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2CA27AF3C2D003370E0 /* LoadingView.swift */; };
+		DD97F2CC27AF3C2D003370E0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2CA27AF3C2D003370E0 /* LoadingView.swift */; };
+		DD97F2CD27AF3C2D003370E0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2CA27AF3C2D003370E0 /* LoadingView.swift */; };
+		DD97F2D027AF3CC9003370E0 /* spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = DD97F2CF27AF3CC9003370E0 /* spinner.json */; };
+		DD97F2D127AF3CC9003370E0 /* spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = DD97F2CF27AF3CC9003370E0 /* spinner.json */; };
+		DD97F2D227AF3CC9003370E0 /* spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = DD97F2CF27AF3CC9003370E0 /* spinner.json */; };
+		DD97F2D427AF3D7C003370E0 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2D327AF3D7B003370E0 /* CustomView.swift */; };
+		DD97F2D527AF3D7C003370E0 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2D327AF3D7B003370E0 /* CustomView.swift */; };
+		DD97F2D627AF3D7C003370E0 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97F2D327AF3D7B003370E0 /* CustomView.swift */; };
+		DDA5C67E27AA015C00350574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C67D27AA015C00350574 /* AppDelegate.swift */; };
+		DDA5C68027AA015C00350574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C67F27AA015C00350574 /* SceneDelegate.swift */; };
+		DDA5C68227AA015C00350574 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C68127AA015C00350574 /* SplashScreenViewController.swift */; };
+		DDA5C68527AA015C00350574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C68327AA015C00350574 /* Main.storyboard */; };
+		DDA5C68727AA015E00350574 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C68627AA015E00350574 /* AppIcon.xcassets */; };
+		DDA5C69E27AA02A100350574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C69827AA02A000350574 /* GoogleService-Info.plist */; };
+		DDA5C6A127AA02A100350574 /* SwiftyBeaverDebugConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C69B27AA02A100350574 /* SwiftyBeaverDebugConfig.xcconfig */; };
+		DDA5C6AA27AA02B900350574 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C68127AA015C00350574 /* SplashScreenViewController.swift */; };
+		DDA5C6AB27AA02B900350574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C67D27AA015C00350574 /* AppDelegate.swift */; };
+		DDA5C6AC27AA02B900350574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C67F27AA015C00350574 /* SceneDelegate.swift */; };
+		DDA5C6B427AA02B900350574 /* SwiftyBeaverStagingConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C69927AA02A000350574 /* SwiftyBeaverStagingConfig.xcconfig */; };
+		DDA5C6B727AA02B900350574 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C68627AA015E00350574 /* AppIcon.xcassets */; };
+		DDA5C6B827AA02B900350574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C69A27AA02A000350574 /* GoogleService-Info.plist */; };
+		DDA5C6B927AA02B900350574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C68327AA015C00350574 /* Main.storyboard */; };
+		DDA5C6C627AA02C300350574 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C68127AA015C00350574 /* SplashScreenViewController.swift */; };
+		DDA5C6C727AA02C300350574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C67D27AA015C00350574 /* AppDelegate.swift */; };
+		DDA5C6C827AA02C300350574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5C67F27AA015C00350574 /* SceneDelegate.swift */; };
+		DDA5C6D227AA02C300350574 /* SwiftyBeaverProductionConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C69C27AA02A100350574 /* SwiftyBeaverProductionConfig.xcconfig */; };
+		DDA5C6D327AA02C300350574 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C68627AA015E00350574 /* AppIcon.xcassets */; };
+		DDA5C6D527AA02C300350574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C68327AA015C00350574 /* Main.storyboard */; };
+		DDA5C6DD27AA0A0300350574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA5C69D27AA02A100350574 /* GoogleService-Info.plist */; };
+		DDC44D9B27B4AEAB0018F2BF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44D9A27B4AEAA0018F2BF /* Utility.swift */; };
+		DDC44D9C27B4AEAB0018F2BF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44D9A27B4AEAA0018F2BF /* Utility.swift */; };
+		DDC44D9D27B4AEAB0018F2BF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44D9A27B4AEAA0018F2BF /* Utility.swift */; };
+		DDC44D9F27B4B88D0018F2BF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44D9E27B4B88D0018F2BF /* CustomTabBarController.swift */; };
+		DDC44DA027B4B88D0018F2BF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44D9E27B4B88D0018F2BF /* CustomTabBarController.swift */; };
+		DDC44DA127B4B88D0018F2BF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44D9E27B4B88D0018F2BF /* CustomTabBarController.swift */; };
+		DDC44DA327B5C2490018F2BF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44DA227B5C2490018F2BF /* Device.swift */; };
+		DDC44DA427B5C2490018F2BF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44DA227B5C2490018F2BF /* Device.swift */; };
+		DDC44DA527B5C2490018F2BF /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44DA227B5C2490018F2BF /* Device.swift */; };
+		DDC44DA727B5E3DA0018F2BF /* Constants-Dev.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44DA627B5E3DA0018F2BF /* Constants-Dev.swift */; };
+		DDC44DA927B5E4040018F2BF /* Constants-Staging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44DA827B5E4040018F2BF /* Constants-Staging.swift */; };
+		DDC44DAB27B5E4180018F2BF /* Constants-Prod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC44DAA27B5E4170018F2BF /* Constants-Prod.swift */; };
+		DDD3386D27EBE57900E77DF3 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3386C27EBE57900E77DF3 /* Address.swift */; };
+		DDD3386E27EBE57900E77DF3 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3386C27EBE57900E77DF3 /* Address.swift */; };
+		DDD3386F27EBE57900E77DF3 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3386C27EBE57900E77DF3 /* Address.swift */; };
+		DDDA2A0227BC9BF500669072 /* SpectrumChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDA2A0127BC9BF500669072 /* SpectrumChartView.xib */; };
+		DDDA2A0327BC9BF500669072 /* SpectrumChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDA2A0127BC9BF500669072 /* SpectrumChartView.xib */; };
+		DDDA2A0427BC9BF500669072 /* SpectrumChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDA2A0127BC9BF500669072 /* SpectrumChartView.xib */; };
+		DDDA2A0627BC9C3200669072 /* SpectrumChartViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA2A0527BC9C3200669072 /* SpectrumChartViewModels.swift */; };
+		DDDA2A0727BC9C3200669072 /* SpectrumChartViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA2A0527BC9C3200669072 /* SpectrumChartViewModels.swift */; };
+		DDDA2A0827BC9C3200669072 /* SpectrumChartViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA2A0527BC9C3200669072 /* SpectrumChartViewModels.swift */; };
+		DDDA2A0A27BCAF8C00669072 /* HomeTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA2A0927BCAF8C00669072 /* HomeTableViewCells.swift */; };
+		DDDA2A0B27BCAF8C00669072 /* HomeTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA2A0927BCAF8C00669072 /* HomeTableViewCells.swift */; };
+		DDDA2A0C27BCAF8C00669072 /* HomeTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDA2A0927BCAF8C00669072 /* HomeTableViewCells.swift */; };
+		DDDE942B27B31EE6005C8F8F /* WifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE942A27B31EE6005C8F8F /* WifiTableViewCell.xib */; };
+		DDDE942C27B31EE6005C8F8F /* WifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE942A27B31EE6005C8F8F /* WifiTableViewCell.xib */; };
+		DDDE942D27B31EE6005C8F8F /* WifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE942A27B31EE6005C8F8F /* WifiTableViewCell.xib */; };
+		DDDE942F27B321D8005C8F8F /* ManualWifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE942E27B321D8005C8F8F /* ManualWifiTableViewCell.xib */; };
+		DDDE943027B321D8005C8F8F /* ManualWifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE942E27B321D8005C8F8F /* ManualWifiTableViewCell.xib */; };
+		DDDE943127B321D8005C8F8F /* ManualWifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE942E27B321D8005C8F8F /* ManualWifiTableViewCell.xib */; };
+		DDDE943727B36027005C8F8F /* WifiConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE943627B36027005C8F8F /* WifiConnectView.swift */; };
+		DDDE943827B36027005C8F8F /* WifiConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE943627B36027005C8F8F /* WifiConnectView.swift */; };
+		DDDE943927B36027005C8F8F /* WifiConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDE943627B36027005C8F8F /* WifiConnectView.swift */; };
+		DDDE943C27B3616D005C8F8F /* WifiConnectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE943B27B3616D005C8F8F /* WifiConnectView.xib */; };
+		DDDE943D27B3616D005C8F8F /* WifiConnectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE943B27B3616D005C8F8F /* WifiConnectView.xib */; };
+		DDDE943E27B3616D005C8F8F /* WifiConnectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDE943B27B3616D005C8F8F /* WifiConnectView.xib */; };
+		DDE8926327B1DEEA00231B17 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8926227B1DEEA00231B17 /* TabBar.storyboard */; };
+		DDE8926427B1DEEA00231B17 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8926227B1DEEA00231B17 /* TabBar.storyboard */; };
+		DDE8926527B1DEEA00231B17 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8926227B1DEEA00231B17 /* TabBar.storyboard */; };
+		DDE8926727B1DFEE00231B17 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8926627B1DFEE00231B17 /* History.storyboard */; };
+		DDE8926827B1DFEE00231B17 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8926627B1DFEE00231B17 /* History.storyboard */; };
+		DDE8926927B1DFEE00231B17 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8926627B1DFEE00231B17 /* History.storyboard */; };
+		DDE8926B27B1E00100231B17 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8926A27B1E00100231B17 /* HistoryViewController.swift */; };
+		DDE8926C27B1E00100231B17 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8926A27B1E00100231B17 /* HistoryViewController.swift */; };
+		DDE8926D27B1E00100231B17 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8926A27B1E00100231B17 /* HistoryViewController.swift */; };
+		DDE8927027B1F23300231B17 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8926F27B1F23300231B17 /* AuthenticationManager.swift */; };
+		DDE8927127B1F23300231B17 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8926F27B1F23300231B17 /* AuthenticationManager.swift */; };
+		DDE8927227B1F23300231B17 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8926F27B1F23300231B17 /* AuthenticationManager.swift */; };
+		DDE8927627B1F37C00231B17 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8927527B1F37C00231B17 /* Network.swift */; };
+		DDE8927727B1F37C00231B17 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8927527B1F37C00231B17 /* Network.swift */; };
+		DDE8927827B1F37C00231B17 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8927527B1F37C00231B17 /* Network.swift */; };
+		DDE8927A27B1F3D600231B17 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8927927B1F3D600231B17 /* Account.storyboard */; };
+		DDE8927B27B1F3D600231B17 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8927927B1F3D600231B17 /* Account.storyboard */; };
+		DDE8927C27B1F3D600231B17 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8927927B1F3D600231B17 /* Account.storyboard */; };
+		DDE8927E27B1F3EA00231B17 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8927D27B1F3EA00231B17 /* AccountViewController.swift */; };
+		DDE8927F27B1F3EA00231B17 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8927D27B1F3EA00231B17 /* AccountViewController.swift */; };
+		DDE8928027B1F3EA00231B17 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8927D27B1F3EA00231B17 /* AccountViewController.swift */; };
+		DDE8928327B1F48C00231B17 /* ActionRecord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8928227B1F48B00231B17 /* ActionRecord.storyboard */; };
+		DDE8928427B1F48C00231B17 /* ActionRecord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8928227B1F48B00231B17 /* ActionRecord.storyboard */; };
+		DDE8928527B1F48C00231B17 /* ActionRecord.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8928227B1F48B00231B17 /* ActionRecord.storyboard */; };
+		DDE8928927B1F56700231B17 /* ActionRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8928827B1F56700231B17 /* ActionRecordViewController.swift */; };
+		DDE8928A27B1F56700231B17 /* ActionRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8928827B1F56700231B17 /* ActionRecordViewController.swift */; };
+		DDE8928B27B1F56700231B17 /* ActionRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8928827B1F56700231B17 /* ActionRecordViewController.swift */; };
+		DDE8928D27B1FD4400231B17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8928C27B1FD4400231B17 /* User.swift */; };
+		DDE8928E27B1FD4400231B17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8928C27B1FD4400231B17 /* User.swift */; };
+		DDE8928F27B1FD4400231B17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8928C27B1FD4400231B17 /* User.swift */; };
+		DDE8929A27B202B800231B17 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8929927B202B800231B17 /* FloatingLabelTextField.swift */; };
+		DDE8929B27B202B800231B17 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8929927B202B800231B17 /* FloatingLabelTextField.swift */; };
+		DDE8929C27B202B800231B17 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE8929927B202B800231B17 /* FloatingLabelTextField.swift */; };
+		DDE892A227B2136800231B17 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE892A127B2136800231B17 /* Launch Screen.storyboard */; };
+		DDE892A327B2136800231B17 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE892A127B2136800231B17 /* Launch Screen.storyboard */; };
+		DDE892A427B2136800231B17 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE892A127B2136800231B17 /* Launch Screen.storyboard */; };
+		DDF4E04927B31D98000CF955 /* SmallTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF4E04827B31D98000CF955 /* SmallTableView.xib */; };
+		DDF4E04A27B31D98000CF955 /* SmallTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF4E04827B31D98000CF955 /* SmallTableView.xib */; };
+		DDF4E04B27B31D98000CF955 /* SmallTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF4E04827B31D98000CF955 /* SmallTableView.xib */; };
+		DDF4E04D27B31DEA000CF955 /* WifiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF4E04C27B31DEA000CF955 /* WifiListView.swift */; };
+		DDF4E04E27B31DEA000CF955 /* WifiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF4E04C27B31DEA000CF955 /* WifiListView.swift */; };
+		DDF4E04F27B31DEA000CF955 /* WifiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF4E04C27B31DEA000CF955 /* WifiListView.swift */; };
+		DDFD5FC027F2941200DCD271 /* PopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFD5FBF27F2941200DCD271 /* PopupViewController.storyboard */; };
+		DDFD5FC127F2941200DCD271 /* PopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFD5FBF27F2941200DCD271 /* PopupViewController.storyboard */; };
+		DDFD5FC227F2941200DCD271 /* PopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFD5FBF27F2941200DCD271 /* PopupViewController.storyboard */; };
+		DDFD5FC527F294CC00DCD271 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD5FC427F294CC00DCD271 /* PopupViewController.swift */; };
+		DDFD5FC627F294CC00DCD271 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD5FC427F294CC00DCD271 /* PopupViewController.swift */; };
+		DDFD5FC727F294CC00DCD271 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD5FC427F294CC00DCD271 /* PopupViewController.swift */; };
+		E144AE8F51EBEEABB84BA12A /* Pods_Amano_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A855DFF143A88268988377F4 /* Pods_Amano_Dev.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AB10BABA4A81E2BF889C4BE /* Pods-Amano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amano.debug.xcconfig"; path = "Target Support Files/Pods-Amano/Pods-Amano.debug.xcconfig"; sourceTree = "<group>"; };
+		1710A180267A312976F4AF4B /* Pods-Amano-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amano-Dev.debug.xcconfig"; path = "Target Support Files/Pods-Amano-Dev/Pods-Amano-Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0E2F8F281CEF9F008BAF32 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBC7963282C1B3200FB7C55 /* InstallSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallSelectionViewController.swift; sourceTree = "<group>"; };
+		6EBC7964282C1B3300FB7C55 /* InstallSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallSelectionViewController.xib; sourceTree = "<group>"; };
+		6EBC796B282C2F8200FB7C55 /* InstallHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallHelpViewController.swift; sourceTree = "<group>"; };
+		6EBC796C282C2F8200FB7C55 /* InstallHelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstallHelpViewController.xib; sourceTree = "<group>"; };
+		73CA4E2BA6E26D4FF9FF43E6 /* Pods_Amano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94440294C90FA492DEA75C62 /* Pods-Amano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amano.release.xcconfig"; path = "Target Support Files/Pods-Amano/Pods-Amano.release.xcconfig"; sourceTree = "<group>"; };
+		94D008D29044921FD2422B2F /* Pods-Amano-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amano-Staging.release.xcconfig"; path = "Target Support Files/Pods-Amano-Staging/Pods-Amano-Staging.release.xcconfig"; sourceTree = "<group>"; };
+		A63634313DA9F0D3BA8891D3 /* Pods_Amano_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amano_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B6980CA32C7BD74AE1BF05 /* Pods-Amano-Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amano-Staging.debug.xcconfig"; path = "Target Support Files/Pods-Amano-Staging/Pods-Amano-Staging.debug.xcconfig"; sourceTree = "<group>"; };
+		A855DFF143A88268988377F4 /* Pods_Amano_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amano_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C870FDC5049B957721C2C79C /* Pods-Amano-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amano-Dev.release.xcconfig"; path = "Target Support Files/Pods-Amano-Dev/Pods-Amano-Dev.release.xcconfig"; sourceTree = "<group>"; };
+		DD10505E27E95B950063B30C /* DeviceLocationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocationInfoViewController.swift; sourceTree = "<group>"; };
+		DD38E1E027B31B9800B5FA05 /* SmallTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableView.swift; sourceTree = "<group>"; };
+		DD48D19227FBD2FF008A253D /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		DD5D920227B8AC7000A101D7 /* Constants-Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants-Global.swift"; sourceTree = "<group>"; };
+		DD5F183B27BB2BB200B33718 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DD5F184427BC9AE700B33718 /* SpectrumChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumChartView.swift; sourceTree = "<group>"; };
+		DD645B2D27D2DCC10008C3B6 /* PopoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverTableViewController.swift; sourceTree = "<group>"; };
+		DD7A609627AF42D400BB0047 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		DD7A60A327AF710600BB0047 /* Amano-Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Amano-Dev.entitlements"; sourceTree = "<group>"; };
+		DD7A60A427AF710600BB0047 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		DD7A60A627AF724E00BB0047 /* Amano-Staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Amano-Staging.entitlements"; sourceTree = "<group>"; };
+		DD7A60A827AF725700BB0047 /* Amano-Prod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Amano-Prod.entitlements"; sourceTree = "<group>"; };
+		DD90684A27ACB02E002ACAE2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DD90684E27ACB03C002ACAE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD90685427ACB18B002ACAE2 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		DD90685927ACB1B9002ACAE2 /* Provisioning.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Provisioning.storyboard; sourceTree = "<group>"; };
+		DD90685F27ACB96A002ACAE2 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		DD90686027ACB96A002ACAE2 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DD90686127ACB96A002ACAE2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DD90686227ACB96A002ACAE2 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DD90686327ACB96A002ACAE2 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DD90686427ACB96A002ACAE2 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DD90686527ACB96A002ACAE2 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DD90686627ACB96A002ACAE2 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		DD90686727ACB96A002ACAE2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DD90686827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		DD90686927ACB96A002ACAE2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		DD90686A27ACB96A002ACAE2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		DD90686B27ACB96A002ACAE2 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		DD90689327ACBAC3002ACAE2 /* ProvisioningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningManager.swift; sourceTree = "<group>"; };
+		DD90689F27AED7D3002ACAE2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DD9068A827AEDD7C002ACAE2 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		DD9068AC27AEDF1D002ACAE2 /* ProvisioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningViewController.swift; sourceTree = "<group>"; };
+		DD919EDB27CAD8B300172D62 /* TopBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBanner.swift; sourceTree = "<group>"; };
+		DD919EDF27CAD8C000172D62 /* TopBanner.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopBanner.xib; sourceTree = "<group>"; };
+		DD97F2B227AEF033003370E0 /* SignUpInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInfoViewController.swift; sourceTree = "<group>"; };
+		DD97F2B627AEF1D6003370E0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		DD97F2BB27AEF201003370E0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DD97F2CA27AF3C2D003370E0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DD97F2CF27AF3CC9003370E0 /* spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spinner.json; sourceTree = "<group>"; };
+		DD97F2D327AF3D7B003370E0 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		DDA5C67A27AA015C00350574 /* Amano-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amano-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5C67D27AA015C00350574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDA5C67F27AA015C00350574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDA5C68127AA015C00350574 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		DDA5C68427AA015C00350574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDA5C68627AA015E00350574 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		DDA5C69827AA02A000350574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDA5C69927AA02A000350574 /* SwiftyBeaverStagingConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftyBeaverStagingConfig.xcconfig; sourceTree = "<group>"; };
+		DDA5C69A27AA02A000350574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDA5C69B27AA02A100350574 /* SwiftyBeaverDebugConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftyBeaverDebugConfig.xcconfig; sourceTree = "<group>"; };
+		DDA5C69C27AA02A100350574 /* SwiftyBeaverProductionConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftyBeaverProductionConfig.xcconfig; sourceTree = "<group>"; };
+		DDA5C69D27AA02A100350574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDA5C6BE27AA02B900350574 /* Amano-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amano-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA5C6DA27AA02C300350574 /* Amano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC44D9A27B4AEAA0018F2BF /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DDC44D9E27B4B88D0018F2BF /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		DDC44DA227B5C2490018F2BF /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		DDC44DA627B5E3DA0018F2BF /* Constants-Dev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants-Dev.swift"; sourceTree = "<group>"; };
+		DDC44DA827B5E4040018F2BF /* Constants-Staging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants-Staging.swift"; sourceTree = "<group>"; };
+		DDC44DAA27B5E4170018F2BF /* Constants-Prod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants-Prod.swift"; sourceTree = "<group>"; };
+		DDD3386C27EBE57900E77DF3 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		DDDA2A0127BC9BF500669072 /* SpectrumChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpectrumChartView.xib; sourceTree = "<group>"; };
+		DDDA2A0527BC9C3200669072 /* SpectrumChartViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumChartViewModels.swift; sourceTree = "<group>"; };
+		DDDA2A0927BCAF8C00669072 /* HomeTableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCells.swift; sourceTree = "<group>"; };
+		DDDE942A27B31EE6005C8F8F /* WifiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiTableViewCell.xib; sourceTree = "<group>"; };
+		DDDE942E27B321D8005C8F8F /* ManualWifiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManualWifiTableViewCell.xib; sourceTree = "<group>"; };
+		DDDE943627B36027005C8F8F /* WifiConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConnectView.swift; sourceTree = "<group>"; };
+		DDDE943B27B3616D005C8F8F /* WifiConnectView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WifiConnectView.xib; sourceTree = "<group>"; };
+		DDE8926227B1DEEA00231B17 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		DDE8926627B1DFEE00231B17 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		DDE8926A27B1E00100231B17 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		DDE8926F27B1F23300231B17 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		DDE8927527B1F37C00231B17 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DDE8927927B1F3D600231B17 /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		DDE8927D27B1F3EA00231B17 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		DDE8928227B1F48B00231B17 /* ActionRecord.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActionRecord.storyboard; sourceTree = "<group>"; };
+		DDE8928827B1F56700231B17 /* ActionRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRecordViewController.swift; sourceTree = "<group>"; };
+		DDE8928C27B1FD4400231B17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DDE8929927B202B800231B17 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		DDE892A127B2136800231B17 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DDF4E04827B31D98000CF955 /* SmallTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallTableView.xib; sourceTree = "<group>"; };
+		DDF4E04C27B31DEA000CF955 /* WifiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiListView.swift; sourceTree = "<group>"; };
+		DDFD5FBF27F2941200DCD271 /* PopupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopupViewController.storyboard; sourceTree = "<group>"; };
+		DDFD5FC427F294CC00DCD271 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA5C67727AA015C00350574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A60A527AF710600BB0047 /* NetworkExtension.framework in Frameworks */,
+				E144AE8F51EBEEABB84BA12A /* Pods_Amano_Dev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5C6AD27AA02B900350574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A60A727AF724E00BB0047 /* NetworkExtension.framework in Frameworks */,
+				17C82F5A8E32436889D4345B /* Pods_Amano_Staging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5C6C927AA02C300350574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A60A927AF725B00BB0047 /* NetworkExtension.framework in Frameworks */,
+				B0297A0A72B87B1F18FE9344 /* Pods_Amano.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBC7960282C0B5100FB7C55 /* Installation */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC7963282C1B3200FB7C55 /* InstallSelectionViewController.swift */,
+				6EBC7964282C1B3300FB7C55 /* InstallSelectionViewController.xib */,
+				6EBC796B282C2F8200FB7C55 /* InstallHelpViewController.swift */,
+				6EBC796C282C2F8200FB7C55 /* InstallHelpViewController.xib */,
+			);
+			path = Installation;
+			sourceTree = "<group>";
+		};
+		D129B5F952DC66F68360ED94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB10BABA4A81E2BF889C4BE /* Pods-Amano.debug.xcconfig */,
+				94440294C90FA492DEA75C62 /* Pods-Amano.release.xcconfig */,
+				1710A180267A312976F4AF4B /* Pods-Amano-Dev.debug.xcconfig */,
+				C870FDC5049B957721C2C79C /* Pods-Amano-Dev.release.xcconfig */,
+				A6B6980CA32C7BD74AE1BF05 /* Pods-Amano-Staging.debug.xcconfig */,
+				94D008D29044921FD2422B2F /* Pods-Amano-Staging.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD38E1E427B31BB600B5FA05 /* SmallTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DDF4E04827B31D98000CF955 /* SmallTableView.xib */,
+				DD38E1E027B31B9800B5FA05 /* SmallTableView.swift */,
+			);
+			path = SmallTableView;
+			sourceTree = "<group>";
+		};
+		DD5F183F27BB2C1D00B33718 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F183B27BB2BB200B33718 /* HomeViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD5F184827BC9AEF00B33718 /* SpectrumChartView */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA2A0527BC9C3200669072 /* SpectrumChartViewModels.swift */,
+				DDDA2A0127BC9BF500669072 /* SpectrumChartView.xib */,
+				DD5F184427BC9AE700B33718 /* SpectrumChartView.swift */,
+			);
+			path = SpectrumChartView;
+			sourceTree = "<group>";
+		};
+		DD7A609A27AF585D00BB0047 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DD90685E27ACB96A002ACAE2 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DD7A609B27AF62DE00BB0047 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD90685927ACB1B9002ACAE2 /* Provisioning.storyboard */,
+				DD97F2CE27AF3C5D003370E0 /* LoadingView */,
+				DDF4E05427B31E1F000CF955 /* WifiListView */,
+				DDDE943A27B36049005C8F8F /* WifiConnectView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD7A609C27AF62E600BB0047 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C68327AA015C00350574 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD7A609D27AF62ED00BB0047 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD90685427ACB18B002ACAE2 /* Authentication.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD7A609E27AF62F800BB0047 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD9068A827AEDD7C002ACAE2 /* AuthenticationViewController.swift */,
+				DD97F2B227AEF033003370E0 /* SignUpInfoViewController.swift */,
+				DD645B2D27D2DCC10008C3B6 /* PopoverTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD7A609F27AF630400BB0047 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C68127AA015C00350574 /* SplashScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD7A60A027AF630E00BB0047 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD9068AC27AEDF1D002ACAE2 /* ProvisioningViewController.swift */,
+				DD10505E27E95B950063B30C /* DeviceLocationInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD7A60A127AF631600BB0047 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD97F2B627AEF1D6003370E0 /* Home.storyboard */,
+				DDDA2A0927BCAF8C00669072 /* HomeTableViewCells.swift */,
+				DD5F184827BC9AEF00B33718 /* SpectrumChartView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD7A60A227AF633600BB0047 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD97F2BB27AEF201003370E0 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD7A60AA27AF72E300BB0047 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A60A327AF710600BB0047 /* Amano-Dev.entitlements */,
+				DD7A60A627AF724E00BB0047 /* Amano-Staging.entitlements */,
+				DD7A60A827AF725700BB0047 /* Amano-Prod.entitlements */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		DD90684927ACB012002ACAE2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C68627AA015E00350574 /* AppIcon.xcassets */,
+				DD90684A27ACB02E002ACAE2 /* Colors.xcassets */,
+				DD90684E27ACB03C002ACAE2 /* Images.xcassets */,
+				DD97F2CF27AF3CC9003370E0 /* spinner.json */,
+				DD7A609A27AF585D00BB0047 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DD90685227ACB0D6002ACAE2 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A609C27AF62E600BB0047 /* View */,
+				DD7A609F27AF630400BB0047 /* Controller */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		DD90685327ACB0ED002ACAE2 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C67D27AA015C00350574 /* AppDelegate.swift */,
+				DDA5C67F27AA015C00350574 /* SceneDelegate.swift */,
+				DDE892A127B2136800231B17 /* Launch Screen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		DD90685827ACB199002ACAE2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A609D27AF62ED00BB0047 /* View */,
+				DD7A609E27AF62F800BB0047 /* Controller */,
+				DDE8927327B1F26000231B17 /* Manager */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DD90685D27ACB1C3002ACAE2 /* Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A609B27AF62DE00BB0047 /* View */,
+				DD7A60A027AF630E00BB0047 /* Controller */,
+				DDE8926127AF8F4E00231B17 /* Manager */,
+			);
+			path = Provisioning;
+			sourceTree = "<group>";
+		};
+		DD90685E27ACB96A002ACAE2 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				DD90685F27ACB96A002ACAE2 /* Roboto-Medium.ttf */,
+				DD90686027ACB96A002ACAE2 /* Roboto-Light.ttf */,
+				DD90686127ACB96A002ACAE2 /* Roboto-Regular.ttf */,
+				DD90686227ACB96A002ACAE2 /* Roboto-MediumItalic.ttf */,
+				DD90686327ACB96A002ACAE2 /* Roboto-ThinItalic.ttf */,
+				DD90686427ACB96A002ACAE2 /* Roboto-BoldItalic.ttf */,
+				DD90686527ACB96A002ACAE2 /* Roboto-LightItalic.ttf */,
+				DD90686627ACB96A002ACAE2 /* Roboto-Italic.ttf */,
+				DD90686727ACB96A002ACAE2 /* LICENSE.txt */,
+				DD90686827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf */,
+				DD90686927ACB96A002ACAE2 /* Roboto-Bold.ttf */,
+				DD90686A27ACB96A002ACAE2 /* Roboto-Thin.ttf */,
+				DD90686B27ACB96A002ACAE2 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		DD90689A27ACC0BD002ACAE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A60A427AF710600BB0047 /* NetworkExtension.framework */,
+				73CA4E2BA6E26D4FF9FF43E6 /* Pods_Amano.framework */,
+				A855DFF143A88268988377F4 /* Pods_Amano_Dev.framework */,
+				A63634313DA9F0D3BA8891D3 /* Pods_Amano_Staging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9068A327AED81F002ACAE2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8927527B1F37C00231B17 /* Network.swift */,
+				DD90689F27AED7D3002ACAE2 /* Extensions.swift */,
+				DDC44D9A27B4AEAA0018F2BF /* Utility.swift */,
+				DD5D920227B8AC7000A101D7 /* Constants-Global.swift */,
+				DD48D19227FBD2FF008A253D /* SessionManager.swift */,
+				DDE8927427B1F27300231B17 /* CustomUI */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DD919EE327CADA5200172D62 /* TopBanner */ = {
+			isa = PBXGroup;
+			children = (
+				DD919EDB27CAD8B300172D62 /* TopBanner.swift */,
+				DD919EDF27CAD8C000172D62 /* TopBanner.xib */,
+			);
+			path = TopBanner;
+			sourceTree = "<group>";
+		};
+		DD97F2BA27AEF1E0003370E0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F183F27BB2C1D00B33718 /* Model */,
+				DD7A60A127AF631600BB0047 /* View */,
+				DD7A60A227AF633600BB0047 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DD97F2CE27AF3C5D003370E0 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A609627AF42D400BB0047 /* LoadingView.xib */,
+				DD97F2CA27AF3C2D003370E0 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		DDA5C67127AA015C00350574 = {
+			isa = PBXGroup;
+			children = (
+				DD7A60AA27AF72E300BB0047 /* Entitlements */,
+				DDA5C67C27AA015C00350574 /* Amano */,
+				DDA5C67B27AA015C00350574 /* Products */,
+				DD90689A27ACC0BD002ACAE2 /* Frameworks */,
+				D129B5F952DC66F68360ED94 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA5C67B27AA015C00350574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C67A27AA015C00350574 /* Amano-Dev.app */,
+				DDA5C6BE27AA02B900350574 /* Amano-Staging.app */,
+				DDA5C6DA27AA02C300350574 /* Amano.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA5C67C27AA015C00350574 /* Amano */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC7960282C0B5100FB7C55 /* Installation */,
+				6E0E2F8F281CEF9F008BAF32 /* Info.plist */,
+				DD90685227ACB0D6002ACAE2 /* SplashScreen */,
+				DD90685827ACB199002ACAE2 /* Authentication */,
+				DD90685D27ACB1C3002ACAE2 /* Provisioning */,
+				DDE8928727B1F4C700231B17 /* Tabs */,
+				DD97F2BA27AEF1E0003370E0 /* Home */,
+				DDE8926E27B1E00800231B17 /* History */,
+				DDE8928127B1F3F100231B17 /* Account */,
+				DDE8928627B1F4B300231B17 /* ActionRecord */,
+				DDE8929D27B2030500231B17 /* Model */,
+				DD9068A327AED81F002ACAE2 /* Helper */,
+				DD90684927ACB012002ACAE2 /* Assets */,
+				DDA5C6DC27AA030000350574 /* Configuration */,
+				DD90685327ACB0ED002ACAE2 /* Supporting */,
+			);
+			path = Amano;
+			sourceTree = "<group>";
+		};
+		DDA5C6DC27AA030000350574 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8929E27B2094B00231B17 /* Dev */,
+				DDE8929F27B2095B00231B17 /* Staging */,
+				DDE892A027B2096900231B17 /* Prod */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DDDE943A27B36049005C8F8F /* WifiConnectView */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE943B27B3616D005C8F8F /* WifiConnectView.xib */,
+				DDDE943627B36027005C8F8F /* WifiConnectView.swift */,
+			);
+			path = WifiConnectView;
+			sourceTree = "<group>";
+		};
+		DDE8926127AF8F4E00231B17 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DD90689327ACBAC3002ACAE2 /* ProvisioningManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DDE8926E27B1E00800231B17 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8926627B1DFEE00231B17 /* History.storyboard */,
+				DDE8926A27B1E00100231B17 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		DDE8927327B1F26000231B17 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8926F27B1F23300231B17 /* AuthenticationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DDE8927427B1F27300231B17 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				DD38E1E427B31BB600B5FA05 /* SmallTableView */,
+				DD919EE327CADA5200172D62 /* TopBanner */,
+				DDFD5FC327F2941A00DCD271 /* Popup */,
+				DD97F2D327AF3D7B003370E0 /* CustomView.swift */,
+				DDE8929927B202B800231B17 /* FloatingLabelTextField.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		DDE8928127B1F3F100231B17 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8927927B1F3D600231B17 /* Account.storyboard */,
+				DDE8927D27B1F3EA00231B17 /* AccountViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		DDE8928627B1F4B300231B17 /* ActionRecord */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8928227B1F48B00231B17 /* ActionRecord.storyboard */,
+				DDE8928827B1F56700231B17 /* ActionRecordViewController.swift */,
+			);
+			path = ActionRecord;
+			sourceTree = "<group>";
+		};
+		DDE8928727B1F4C700231B17 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8926227B1DEEA00231B17 /* TabBar.storyboard */,
+				DDC44D9E27B4B88D0018F2BF /* CustomTabBarController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		DDE8929D27B2030500231B17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8928C27B1FD4400231B17 /* User.swift */,
+				DDD3386C27EBE57900E77DF3 /* Address.swift */,
+				DDC44DA227B5C2490018F2BF /* Device.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDE8929E27B2094B00231B17 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C69827AA02A000350574 /* GoogleService-Info.plist */,
+				DDA5C69B27AA02A100350574 /* SwiftyBeaverDebugConfig.xcconfig */,
+				DDC44DA627B5E3DA0018F2BF /* Constants-Dev.swift */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		DDE8929F27B2095B00231B17 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C69A27AA02A000350574 /* GoogleService-Info.plist */,
+				DDA5C69927AA02A000350574 /* SwiftyBeaverStagingConfig.xcconfig */,
+				DDC44DA827B5E4040018F2BF /* Constants-Staging.swift */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		DDE892A027B2096900231B17 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5C69D27AA02A100350574 /* GoogleService-Info.plist */,
+				DDA5C69C27AA02A100350574 /* SwiftyBeaverProductionConfig.xcconfig */,
+				DDC44DAA27B5E4170018F2BF /* Constants-Prod.swift */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		DDF4E05427B31E1F000CF955 /* WifiListView */ = {
+			isa = PBXGroup;
+			children = (
+				DDDE942A27B31EE6005C8F8F /* WifiTableViewCell.xib */,
+				DDDE942E27B321D8005C8F8F /* ManualWifiTableViewCell.xib */,
+				DDF4E04C27B31DEA000CF955 /* WifiListView.swift */,
+			);
+			path = WifiListView;
+			sourceTree = "<group>";
+		};
+		DDFD5FC327F2941A00DCD271 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				DDFD5FC427F294CC00DCD271 /* PopupViewController.swift */,
+				DDFD5FBF27F2941200DCD271 /* PopupViewController.storyboard */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA5C67927AA015C00350574 /* Amano-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA5C68E27AA015E00350574 /* Build configuration list for PBXNativeTarget "Amano-Dev" */;
+			buildPhases = (
+				59F262D6F83297108C4757B5 /* [CP] Check Pods Manifest.lock */,
+				DDA5C67627AA015C00350574 /* Sources */,
+				DDA5C67727AA015C00350574 /* Frameworks */,
+				DDA5C67827AA015C00350574 /* Resources */,
+				0D24B3FEB76F0A22F0AC2032 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amano-Dev";
+			productName = Amano;
+			productReference = DDA5C67A27AA015C00350574 /* Amano-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA5C6A427AA02B900350574 /* Amano-Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA5C6BB27AA02B900350574 /* Build configuration list for PBXNativeTarget "Amano-Staging" */;
+			buildPhases = (
+				B59FFCD40495373A24A57365 /* [CP] Check Pods Manifest.lock */,
+				DDA5C6A927AA02B900350574 /* Sources */,
+				DDA5C6AD27AA02B900350574 /* Frameworks */,
+				DDA5C6B127AA02B900350574 /* Resources */,
+				544ED32736C0856D3CDB74C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amano-Staging";
+			productName = Amano;
+			productReference = DDA5C6BE27AA02B900350574 /* Amano-Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA5C6C027AA02C300350574 /* Amano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA5C6D727AA02C300350574 /* Build configuration list for PBXNativeTarget "Amano" */;
+			buildPhases = (
+				18870404C8C2B3D5B83B3498 /* [CP] Check Pods Manifest.lock */,
+				DDA5C6C527AA02C300350574 /* Sources */,
+				DDA5C6C927AA02C300350574 /* Frameworks */,
+				DDA5C6CD27AA02C300350574 /* Resources */,
+				E88D1CFA886EE9683C45F43E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amano;
+			productName = Amano;
+			productReference = DDA5C6DA27AA02C300350574 /* Amano.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA5C67227AA015C00350574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DDA5C67927AA015C00350574 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = DDA5C67527AA015C00350574 /* Build configuration list for PBXProject "Amano" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA5C67127AA015C00350574;
+			productRefGroup = DDA5C67B27AA015C00350574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA5C67927AA015C00350574 /* Amano-Dev */,
+				DDA5C6A427AA02B900350574 /* Amano-Staging */,
+				DDA5C6C027AA02C300350574 /* Amano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA5C67827AA015C00350574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFD5FC027F2941200DCD271 /* PopupViewController.storyboard in Resources */,
+				DD90688427ACB96A002ACAE2 /* LICENSE.txt in Resources */,
+				6EBC7970282C2F8200FB7C55 /* InstallHelpViewController.xib in Resources */,
+				DD97F2B727AEF1D6003370E0 /* Home.storyboard in Resources */,
+				DD90688A27ACB96A002ACAE2 /* Roboto-Bold.ttf in Resources */,
+				DDE8928327B1F48C00231B17 /* ActionRecord.storyboard in Resources */,
+				DD90684B27ACB02E002ACAE2 /* Colors.xcassets in Resources */,
+				DD97F2D027AF3CC9003370E0 /* spinner.json in Resources */,
+				DDE8926327B1DEEA00231B17 /* TabBar.storyboard in Resources */,
+				DDF4E04927B31D98000CF955 /* SmallTableView.xib in Resources */,
+				DD90687227ACB96A002ACAE2 /* Roboto-Regular.ttf in Resources */,
+				DD90687E27ACB96A002ACAE2 /* Roboto-LightItalic.ttf in Resources */,
+				DD90685527ACB18B002ACAE2 /* Authentication.storyboard in Resources */,
+				DD90686F27ACB96A002ACAE2 /* Roboto-Light.ttf in Resources */,
+				DD7A609727AF42D400BB0047 /* LoadingView.xib in Resources */,
+				DDE8926727B1DFEE00231B17 /* History.storyboard in Resources */,
+				DD90688127ACB96A002ACAE2 /* Roboto-Italic.ttf in Resources */,
+				DD90688D27ACB96A002ACAE2 /* Roboto-Thin.ttf in Resources */,
+				DD90687527ACB96A002ACAE2 /* Roboto-MediumItalic.ttf in Resources */,
+				DDA5C69E27AA02A100350574 /* GoogleService-Info.plist in Resources */,
+				DDE8927A27B1F3D600231B17 /* Account.storyboard in Resources */,
+				DD919EE027CAD8C000172D62 /* TopBanner.xib in Resources */,
+				DD90689027ACB96A002ACAE2 /* Roboto-Black.ttf in Resources */,
+				DDDE943C27B3616D005C8F8F /* WifiConnectView.xib in Resources */,
+				DDA5C6A127AA02A100350574 /* SwiftyBeaverDebugConfig.xcconfig in Resources */,
+				DDDA2A0227BC9BF500669072 /* SpectrumChartView.xib in Resources */,
+				DD90684F27ACB03C002ACAE2 /* Images.xcassets in Resources */,
+				DD90685A27ACB1B9002ACAE2 /* Provisioning.storyboard in Resources */,
+				DDA5C68727AA015E00350574 /* AppIcon.xcassets in Resources */,
+				DD90688727ACB96A002ACAE2 /* Roboto-BlackItalic.ttf in Resources */,
+				DDA5C68527AA015C00350574 /* Main.storyboard in Resources */,
+				6EBC796A282C23F400FB7C55 /* InstallSelectionViewController.xib in Resources */,
+				DDE892A227B2136800231B17 /* Launch Screen.storyboard in Resources */,
+				DD90686C27ACB96A002ACAE2 /* Roboto-Medium.ttf in Resources */,
+				DDDE942F27B321D8005C8F8F /* ManualWifiTableViewCell.xib in Resources */,
+				DD90687B27ACB96A002ACAE2 /* Roboto-BoldItalic.ttf in Resources */,
+				DD90687827ACB96A002ACAE2 /* Roboto-ThinItalic.ttf in Resources */,
+				DDDE942B27B31EE6005C8F8F /* WifiTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5C6B127AA02B900350574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFD5FC127F2941200DCD271 /* PopupViewController.storyboard in Resources */,
+				DD90688527ACB96A002ACAE2 /* LICENSE.txt in Resources */,
+				6EBC7971282C2F8200FB7C55 /* InstallHelpViewController.xib in Resources */,
+				DD97F2B827AEF1D6003370E0 /* Home.storyboard in Resources */,
+				DD90688B27ACB96A002ACAE2 /* Roboto-Bold.ttf in Resources */,
+				DDE8928427B1F48C00231B17 /* ActionRecord.storyboard in Resources */,
+				DD90684C27ACB02E002ACAE2 /* Colors.xcassets in Resources */,
+				DD97F2D127AF3CC9003370E0 /* spinner.json in Resources */,
+				DDE8926427B1DEEA00231B17 /* TabBar.storyboard in Resources */,
+				DDF4E04A27B31D98000CF955 /* SmallTableView.xib in Resources */,
+				DD90687327ACB96A002ACAE2 /* Roboto-Regular.ttf in Resources */,
+				DD90687F27ACB96A002ACAE2 /* Roboto-LightItalic.ttf in Resources */,
+				DD90685627ACB18B002ACAE2 /* Authentication.storyboard in Resources */,
+				DD90687027ACB96A002ACAE2 /* Roboto-Light.ttf in Resources */,
+				DD7A609827AF42D400BB0047 /* LoadingView.xib in Resources */,
+				DDE8926827B1DFEE00231B17 /* History.storyboard in Resources */,
+				DD90688227ACB96A002ACAE2 /* Roboto-Italic.ttf in Resources */,
+				DD90688E27ACB96A002ACAE2 /* Roboto-Thin.ttf in Resources */,
+				DD90687627ACB96A002ACAE2 /* Roboto-MediumItalic.ttf in Resources */,
+				DDA5C6B427AA02B900350574 /* SwiftyBeaverStagingConfig.xcconfig in Resources */,
+				DDE8927B27B1F3D600231B17 /* Account.storyboard in Resources */,
+				DD919EE127CAD8C000172D62 /* TopBanner.xib in Resources */,
+				DD90689127ACB96A002ACAE2 /* Roboto-Black.ttf in Resources */,
+				DDDE943D27B3616D005C8F8F /* WifiConnectView.xib in Resources */,
+				DDA5C6B727AA02B900350574 /* AppIcon.xcassets in Resources */,
+				DDDA2A0327BC9BF500669072 /* SpectrumChartView.xib in Resources */,
+				DD90685027ACB03C002ACAE2 /* Images.xcassets in Resources */,
+				DD90685B27ACB1B9002ACAE2 /* Provisioning.storyboard in Resources */,
+				DDA5C6B827AA02B900350574 /* GoogleService-Info.plist in Resources */,
+				DD90688827ACB96A002ACAE2 /* Roboto-BlackItalic.ttf in Resources */,
+				DDA5C6B927AA02B900350574 /* Main.storyboard in Resources */,
+				6EBC7969282C23F400FB7C55 /* InstallSelectionViewController.xib in Resources */,
+				DDE892A327B2136800231B17 /* Launch Screen.storyboard in Resources */,
+				DD90686D27ACB96A002ACAE2 /* Roboto-Medium.ttf in Resources */,
+				DDDE943027B321D8005C8F8F /* ManualWifiTableViewCell.xib in Resources */,
+				DD90687C27ACB96A002ACAE2 /* Roboto-BoldItalic.ttf in Resources */,
+				DD90687927ACB96A002ACAE2 /* Roboto-ThinItalic.ttf in Resources */,
+				DDDE942C27B31EE6005C8F8F /* WifiTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5C6CD27AA02C300350574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFD5FC227F2941200DCD271 /* PopupViewController.storyboard in Resources */,
+				DD90688627ACB96A002ACAE2 /* LICENSE.txt in Resources */,
+				DD97F2B927AEF1D6003370E0 /* Home.storyboard in Resources */,
+				DD90688C27ACB96A002ACAE2 /* Roboto-Bold.ttf in Resources */,
+				DDE8928527B1F48C00231B17 /* ActionRecord.storyboard in Resources */,
+				DD90684D27ACB02E002ACAE2 /* Colors.xcassets in Resources */,
+				DD97F2D227AF3CC9003370E0 /* spinner.json in Resources */,
+				DDE8926527B1DEEA00231B17 /* TabBar.storyboard in Resources */,
+				DDF4E04B27B31D98000CF955 /* SmallTableView.xib in Resources */,
+				DD90687427ACB96A002ACAE2 /* Roboto-Regular.ttf in Resources */,
+				DD90688027ACB96A002ACAE2 /* Roboto-LightItalic.ttf in Resources */,
+				DD90685727ACB18B002ACAE2 /* Authentication.storyboard in Resources */,
+				DD90687127ACB96A002ACAE2 /* Roboto-Light.ttf in Resources */,
+				DD7A609927AF42D400BB0047 /* LoadingView.xib in Resources */,
+				DDE8926927B1DFEE00231B17 /* History.storyboard in Resources */,
+				DD90688327ACB96A002ACAE2 /* Roboto-Italic.ttf in Resources */,
+				DD90688F27ACB96A002ACAE2 /* Roboto-Thin.ttf in Resources */,
+				6EBC7966282C1B3300FB7C55 /* InstallSelectionViewController.xib in Resources */,
+				DD90687727ACB96A002ACAE2 /* Roboto-MediumItalic.ttf in Resources */,
+				DDA5C6DD27AA0A0300350574 /* GoogleService-Info.plist in Resources */,
+				DDE8927C27B1F3D600231B17 /* Account.storyboard in Resources */,
+				6E0E2F90281CEF9F008BAF32 /* Info.plist in Resources */,
+				DD919EE227CAD8C000172D62 /* TopBanner.xib in Resources */,
+				DD90689227ACB96A002ACAE2 /* Roboto-Black.ttf in Resources */,
+				DDDE943E27B3616D005C8F8F /* WifiConnectView.xib in Resources */,
+				DDA5C6D227AA02C300350574 /* SwiftyBeaverProductionConfig.xcconfig in Resources */,
+				DDDA2A0427BC9BF500669072 /* SpectrumChartView.xib in Resources */,
+				DD90685127ACB03C002ACAE2 /* Images.xcassets in Resources */,
+				DD90685C27ACB1B9002ACAE2 /* Provisioning.storyboard in Resources */,
+				DDA5C6D327AA02C300350574 /* AppIcon.xcassets in Resources */,
+				DD90688927ACB96A002ACAE2 /* Roboto-BlackItalic.ttf in Resources */,
+				6EBC7972282C2F8200FB7C55 /* InstallHelpViewController.xib in Resources */,
+				DDA5C6D527AA02C300350574 /* Main.storyboard in Resources */,
+				DDE892A427B2136800231B17 /* Launch Screen.storyboard in Resources */,
+				DD90686E27ACB96A002ACAE2 /* Roboto-Medium.ttf in Resources */,
+				DDDE943127B321D8005C8F8F /* ManualWifiTableViewCell.xib in Resources */,
+				DD90687D27ACB96A002ACAE2 /* Roboto-BoldItalic.ttf in Resources */,
+				DD90687A27ACB96A002ACAE2 /* Roboto-ThinItalic.ttf in Resources */,
+				DDDE942D27B31EE6005C8F8F /* WifiTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D24B3FEB76F0A22F0AC2032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amano-Dev/Pods-Amano-Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amano-Dev/Pods-Amano-Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amano-Dev/Pods-Amano-Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18870404C8C2B3D5B83B3498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amano-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544ED32736C0856D3CDB74C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amano-Staging/Pods-Amano-Staging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amano-Staging/Pods-Amano-Staging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amano-Staging/Pods-Amano-Staging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F262D6F83297108C4757B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amano-Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59FFCD40495373A24A57365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amano-Staging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88D1CFA886EE9683C45F43E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amano/Pods-Amano-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amano/Pods-Amano-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amano/Pods-Amano-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA5C67627AA015C00350574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDA2A0A27BCAF8C00669072 /* HomeTableViewCells.swift in Sources */,
+				DD10505F27E95B950063B30C /* DeviceLocationInfoViewController.swift in Sources */,
+				DD48D19327FBD2FF008A253D /* SessionManager.swift in Sources */,
+				DD9068A027AED7D3002ACAE2 /* Extensions.swift in Sources */,
+				DD97F2B327AEF033003370E0 /* SignUpInfoViewController.swift in Sources */,
+				DDC44D9F27B4B88D0018F2BF /* CustomTabBarController.swift in Sources */,
+				DDE8927E27B1F3EA00231B17 /* AccountViewController.swift in Sources */,
+				DDE8929A27B202B800231B17 /* FloatingLabelTextField.swift in Sources */,
+				DDA5C68227AA015C00350574 /* SplashScreenViewController.swift in Sources */,
+				DD919EDC27CAD8B300172D62 /* TopBanner.swift in Sources */,
+				6EBC7967282C23D500FB7C55 /* InstallSelectionViewController.swift in Sources */,
+				DDF4E04D27B31DEA000CF955 /* WifiListView.swift in Sources */,
+				DDC44DA727B5E3DA0018F2BF /* Constants-Dev.swift in Sources */,
+				DD97F2CB27AF3C2D003370E0 /* LoadingView.swift in Sources */,
+				DDD3386D27EBE57900E77DF3 /* Address.swift in Sources */,
+				DDE8926B27B1E00100231B17 /* HistoryViewController.swift in Sources */,
+				DD5F183C27BB2BB200B33718 /* HomeViewModel.swift in Sources */,
+				DD5D920327B8AC7000A101D7 /* Constants-Global.swift in Sources */,
+				DDE8927627B1F37C00231B17 /* Network.swift in Sources */,
+				DDDA2A0627BC9C3200669072 /* SpectrumChartViewModels.swift in Sources */,
+				DD9068AD27AEDF1D002ACAE2 /* ProvisioningViewController.swift in Sources */,
+				DDA5C67E27AA015C00350574 /* AppDelegate.swift in Sources */,
+				DDFD5FC527F294CC00DCD271 /* PopupViewController.swift in Sources */,
+				DD97F2BC27AEF201003370E0 /* HomeViewController.swift in Sources */,
+				DD9068A927AEDD7C002ACAE2 /* AuthenticationViewController.swift in Sources */,
+				DDE8927027B1F23300231B17 /* AuthenticationManager.swift in Sources */,
+				DD5F184527BC9AE700B33718 /* SpectrumChartView.swift in Sources */,
+				DDDE943727B36027005C8F8F /* WifiConnectView.swift in Sources */,
+				DD90689427ACBAC3002ACAE2 /* ProvisioningManager.swift in Sources */,
+				DDC44D9B27B4AEAB0018F2BF /* Utility.swift in Sources */,
+				DD97F2D427AF3D7C003370E0 /* CustomView.swift in Sources */,
+				DD645B2E27D2DCC10008C3B6 /* PopoverTableViewController.swift in Sources */,
+				DD38E1E127B31B9800B5FA05 /* SmallTableView.swift in Sources */,
+				DDE8928D27B1FD4400231B17 /* User.swift in Sources */,
+				6EBC796D282C2F8200FB7C55 /* InstallHelpViewController.swift in Sources */,
+				DDA5C68027AA015C00350574 /* SceneDelegate.swift in Sources */,
+				DDE8928927B1F56700231B17 /* ActionRecordViewController.swift in Sources */,
+				DDC44DA327B5C2490018F2BF /* Device.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5C6A927AA02B900350574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDA2A0B27BCAF8C00669072 /* HomeTableViewCells.swift in Sources */,
+				DD10506027E95B950063B30C /* DeviceLocationInfoViewController.swift in Sources */,
+				DD48D19427FBD2FF008A253D /* SessionManager.swift in Sources */,
+				DD9068A127AED7D3002ACAE2 /* Extensions.swift in Sources */,
+				DD97F2B427AEF033003370E0 /* SignUpInfoViewController.swift in Sources */,
+				DDC44DA027B4B88D0018F2BF /* CustomTabBarController.swift in Sources */,
+				DDE8927F27B1F3EA00231B17 /* AccountViewController.swift in Sources */,
+				DDE8929B27B202B800231B17 /* FloatingLabelTextField.swift in Sources */,
+				DDA5C6AA27AA02B900350574 /* SplashScreenViewController.swift in Sources */,
+				DD919EDD27CAD8B300172D62 /* TopBanner.swift in Sources */,
+				6EBC7968282C23D600FB7C55 /* InstallSelectionViewController.swift in Sources */,
+				DDF4E04E27B31DEA000CF955 /* WifiListView.swift in Sources */,
+				DD97F2CC27AF3C2D003370E0 /* LoadingView.swift in Sources */,
+				DDE8926C27B1E00100231B17 /* HistoryViewController.swift in Sources */,
+				DDD3386E27EBE57900E77DF3 /* Address.swift in Sources */,
+				DDE8927727B1F37C00231B17 /* Network.swift in Sources */,
+				DD5F183D27BB2BB200B33718 /* HomeViewModel.swift in Sources */,
+				DD5D920427B8AC7000A101D7 /* Constants-Global.swift in Sources */,
+				DD9068AE27AEDF1D002ACAE2 /* ProvisioningViewController.swift in Sources */,
+				DDDA2A0727BC9C3200669072 /* SpectrumChartViewModels.swift in Sources */,
+				DDC44DA927B5E4040018F2BF /* Constants-Staging.swift in Sources */,
+				DDA5C6AB27AA02B900350574 /* AppDelegate.swift in Sources */,
+				DDFD5FC627F294CC00DCD271 /* PopupViewController.swift in Sources */,
+				DD97F2BD27AEF201003370E0 /* HomeViewController.swift in Sources */,
+				DD9068AA27AEDD7C002ACAE2 /* AuthenticationViewController.swift in Sources */,
+				DDE8927127B1F23300231B17 /* AuthenticationManager.swift in Sources */,
+				DD5F184627BC9AE700B33718 /* SpectrumChartView.swift in Sources */,
+				DDDE943827B36027005C8F8F /* WifiConnectView.swift in Sources */,
+				DD90689527ACBAC3002ACAE2 /* ProvisioningManager.swift in Sources */,
+				DDC44D9C27B4AEAB0018F2BF /* Utility.swift in Sources */,
+				DD97F2D527AF3D7C003370E0 /* CustomView.swift in Sources */,
+				DD645B2F27D2DCC10008C3B6 /* PopoverTableViewController.swift in Sources */,
+				DD38E1E227B31B9800B5FA05 /* SmallTableView.swift in Sources */,
+				DDE8928E27B1FD4400231B17 /* User.swift in Sources */,
+				6EBC796E282C2F8200FB7C55 /* InstallHelpViewController.swift in Sources */,
+				DDA5C6AC27AA02B900350574 /* SceneDelegate.swift in Sources */,
+				DDE8928A27B1F56700231B17 /* ActionRecordViewController.swift in Sources */,
+				DDC44DA427B5C2490018F2BF /* Device.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA5C6C527AA02C300350574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDA2A0C27BCAF8C00669072 /* HomeTableViewCells.swift in Sources */,
+				DD10506127E95B950063B30C /* DeviceLocationInfoViewController.swift in Sources */,
+				DD48D19527FBD2FF008A253D /* SessionManager.swift in Sources */,
+				DD9068A227AED7D3002ACAE2 /* Extensions.swift in Sources */,
+				DD97F2B527AEF033003370E0 /* SignUpInfoViewController.swift in Sources */,
+				DDC44DA127B4B88D0018F2BF /* CustomTabBarController.swift in Sources */,
+				DDE8928027B1F3EA00231B17 /* AccountViewController.swift in Sources */,
+				DDE8929C27B202B800231B17 /* FloatingLabelTextField.swift in Sources */,
+				DDA5C6C627AA02C300350574 /* SplashScreenViewController.swift in Sources */,
+				DD919EDE27CAD8B300172D62 /* TopBanner.swift in Sources */,
+				6EBC7965282C1B3300FB7C55 /* InstallSelectionViewController.swift in Sources */,
+				DDC44DAB27B5E4180018F2BF /* Constants-Prod.swift in Sources */,
+				DDF4E04F27B31DEA000CF955 /* WifiListView.swift in Sources */,
+				DD97F2CD27AF3C2D003370E0 /* LoadingView.swift in Sources */,
+				DDD3386F27EBE57900E77DF3 /* Address.swift in Sources */,
+				DDE8926D27B1E00100231B17 /* HistoryViewController.swift in Sources */,
+				DD5F183E27BB2BB200B33718 /* HomeViewModel.swift in Sources */,
+				DD5D920527B8AC7000A101D7 /* Constants-Global.swift in Sources */,
+				DDE8927827B1F37C00231B17 /* Network.swift in Sources */,
+				DDDA2A0827BC9C3200669072 /* SpectrumChartViewModels.swift in Sources */,
+				DD9068AF27AEDF1D002ACAE2 /* ProvisioningViewController.swift in Sources */,
+				DDA5C6C727AA02C300350574 /* AppDelegate.swift in Sources */,
+				DDFD5FC727F294CC00DCD271 /* PopupViewController.swift in Sources */,
+				DD97F2BE27AEF201003370E0 /* HomeViewController.swift in Sources */,
+				DD9068AB27AEDD7C002ACAE2 /* AuthenticationViewController.swift in Sources */,
+				DDE8927227B1F23300231B17 /* AuthenticationManager.swift in Sources */,
+				DD5F184727BC9AE700B33718 /* SpectrumChartView.swift in Sources */,
+				DDDE943927B36027005C8F8F /* WifiConnectView.swift in Sources */,
+				DD90689627ACBAC3002ACAE2 /* ProvisioningManager.swift in Sources */,
+				DDC44D9D27B4AEAB0018F2BF /* Utility.swift in Sources */,
+				DD97F2D627AF3D7C003370E0 /* CustomView.swift in Sources */,
+				DD645B3027D2DCC10008C3B6 /* PopoverTableViewController.swift in Sources */,
+				DD38E1E327B31B9800B5FA05 /* SmallTableView.swift in Sources */,
+				DDE8928F27B1FD4400231B17 /* User.swift in Sources */,
+				6EBC796F282C2F8200FB7C55 /* InstallHelpViewController.swift in Sources */,
+				DDA5C6C827AA02C300350574 /* SceneDelegate.swift in Sources */,
+				DDE8928B27B1F56700231B17 /* ActionRecordViewController.swift in Sources */,
+				DDC44DA527B5C2490018F2BF /* Device.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDA5C68327AA015C00350574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA5C68427AA015C00350574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA5C68C27AA015E00350574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA5C68D27AA015E00350574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA5C68F27AA015E00350574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1710A180267A312976F4AF4B /* Pods-Amano-Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Entitlements/Amano-Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJBYY7A92S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amano/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmanoCare uses the camera to scan the QR code on the device";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AmanoCare needs to use your local network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amano.Amano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DmitriBuildTest;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA5C69027AA015E00350574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C870FDC5049B957721C2C79C /* Pods-Amano-Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Entitlements/Amano-Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJBYY7A92S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amano/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmanoCare uses the camera to scan the QR code on the device";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AmanoCare needs to use your local network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amano.Amano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DmitriBuildTest;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDA5C6BC27AA02B900350574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B6980CA32C7BD74AE1BF05 /* Pods-Amano-Staging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Entitlements/Amano-Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJBYY7A92S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amano-Dev copy-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmanoCare uses the camera to scan the QR code on the device";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AmanoCare needs to use your local network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amano.Amano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DmitriBuildTest;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA5C6BD27AA02B900350574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D008D29044921FD2422B2F /* Pods-Amano-Staging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Entitlements/Amano-Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJBYY7A92S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amano-Dev copy-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmanoCare uses the camera to scan the QR code on the device";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AmanoCare needs to use your local network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amano.Amano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DmitriBuildTest;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDA5C6D827AA02C300350574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB10BABA4A81E2BF889C4BE /* Pods-Amano.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Entitlements/Amano-Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJBYY7A92S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amano-Staging copy-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmanoCare uses the camera to scan the QR code on the device";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AmanoCare needs to use your local network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amano.Amano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DmitriBuildTest;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA5C6D927AA02C300350574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94440294C90FA492DEA75C62 /* Pods-Amano.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Entitlements/Amano-Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJBYY7A92S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amano-Staging copy-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "AmanoCare needs to communicate with your monitor so you can connect it to Wi-Fi (your monitor won't be able to send data without doing this).";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AmanoCare uses the camera to scan the QR code on the device";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "AmanoCare needs to use your local network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amano.Amano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DmitriBuildTest;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA5C67527AA015C00350574 /* Build configuration list for PBXProject "Amano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5C68C27AA015E00350574 /* Debug */,
+				DDA5C68D27AA015E00350574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA5C68E27AA015E00350574 /* Build configuration list for PBXNativeTarget "Amano-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5C68F27AA015E00350574 /* Debug */,
+				DDA5C69027AA015E00350574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA5C6BB27AA02B900350574 /* Build configuration list for PBXNativeTarget "Amano-Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5C6BC27AA02B900350574 /* Debug */,
+				DDA5C6BD27AA02B900350574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA5C6D727AA02C300350574 /* Build configuration list for PBXNativeTarget "Amano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA5C6D827AA02C300350574 /* Debug */,
+				DDA5C6D927AA02C300350574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA5C67227AA015C00350574 /* Project object */;
+}
